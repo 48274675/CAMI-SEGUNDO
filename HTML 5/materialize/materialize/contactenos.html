@@ -16,15 +16,21 @@
     </head>
 
     <body>
-
+<!-- es la barra de navegacion-->
         <nav class="nav-extended  pink">
             <div class="nav-wrapper">
               <a href="#" class="brand-logo">logo</a>
               <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
               <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="index.html">index</a></li>
-                <li><a href="contactenos.html">contactenos</a></li>
-                <li><a href="collapsible.html">JavaScript</a></li>
+                <li>
+                  <a href="index.html">index</a>
+                </li>
+                <li>
+                  <a href="contactenos.html">contactenos</a>
+                </li>
+                <li>
+                  <a href="collapsible.html">JavaScript</a>
+                </li>
               </ul>
             </div> 
           </nav>
@@ -44,7 +50,7 @@
 
           <h1>contactenos</h1>
           
-          <!-- aca creo el contenedor que me permite usar el grid-->
+          <!-- aca creo el contenedor que me permite usar el grid, ajusta los margenes del cuerpo-->
           <div class="container">
              <!-- aca creo el row que me permite usar el grid--> 
                 <div class="row">
@@ -60,17 +66,17 @@
                         <!--
                         IMPORTANTE
                         TENER EN CUENTA QUE EL ID EN LA ETIQUETA INPUT
-                        DEBE SER IGUAL A LA ETIQUETA FOR EN LA ETIQUETA LEBEL
+                        DEBE SER IGUAL A LA ETIQUETA "FOR" EN LA ETIQUETA LABEL
                       -->
                        
-                        <label for="nombre">nombre</label>
+                        <label for="nombre">Nombres</label>
                       </div>
                      
-                      <div class="input-field col s12">
+                      <div class="input-field col s12 ">
 
                         <input id="apellido" type="text" class="validate">
 
-                        <label for="apellido">apellido</label>
+                        <label for="apellido">Apellidos</label>
                       </div>
                       <!-- 
                         ACA ES IMPORTANTE VER
@@ -96,11 +102,12 @@
                              la seleccion
                           -->
                           <input id="fecha" type="text" class="datepicker">
-                          <label for="fecha">fecha de nacimiento</label>
+                          <label for="fecha">Fecha de Nacimiento</label>
 
                         </div>
                         
-                        <button class="btn waves-effect waves-light" type="submit" name="action">enviar
+                        <button class="btn waves-effect waves-light" type="submit" name="action">
+                          Enviar
                           <i class="material-icons right">offline_pin</i>
                         </button>
 
